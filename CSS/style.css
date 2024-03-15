@@ -1,0 +1,52 @@
+header img {
+    width: 100%;
+    height: 500px;
+    
+}
+header  nav {
+    position: fixed;
+    width: 95%;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    top: 10px;
+}
+
+header nav h3{
+    padding: 0;
+    margin: auto;
+    text-decoration: overline underline;
+    font-style: italic;
+}
+  
+header nav ul {
+    list-style-type: none;
+    padding-left: 40%;
+    margin: auto;
+}
+  
+header nav ul li {
+    display: inline;
+    margin: 10px;
+}
+header nav ul li :hover {
+    color: white;
+    text-shadow: black 1px 1px;
+    margin: 0 5px 0 5px;
+    transition: all 0.5s ease 0s;
+}
+  
+header nav ul li a {
+    text-decoration: none; /* Quita el subrayado de los enlaces */
+    color: black;
+}
+
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
