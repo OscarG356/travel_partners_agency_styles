@@ -7,7 +7,7 @@
 </head>
 <body>
     <header>
-        <img src="https://s-i.huffpost.com/gen/1871544/images/o-TRAVELING-facebook.jpg" alt="Banner de viajes">
+        <img src="https://s-i.huffpost.com/gen/1871544/images/o-TRAVELING-facebook.jpg" alt="Banner de viajes" id="inicio">
         <nav>
             <h3>Travel Partners</h3>
             <ul>
@@ -20,12 +20,28 @@
                 <li><a href="argentina.html">Argentina</a></li>
                 <li><a href="acerca.html">Acerca de nosotros</a></li>
             </ul>
-        </nav>
-        <h1>Travel Partners Agency</h1>    
+        </nav>   
     </header>
     <main>
+        <div id="title">
+            <h1>Travel Partners Agency</h1> 
+        </div>
+        <aside id="nav-aside">
+            <nav>
+                <ul>
+                    <li><a href="#colombia">Colombia</a></li>
+                    <li><a href="#venezuela">Venezuela</a></li>
+                    <li><a href="#brasil">Brasil</a></li>
+                    <li><a href="#mexico">México</a></li>
+                    <li><a href="#canada">Canadá</a></li>
+                    <li><a href="#argentina">Argentina</a></li>
+                    <li><a href="#title">Video presentación</a></li>
+                    <li><a href="#argentina">Clientes felices</a></li>
+                </ul>
+            </nav>
+        </aside>
         <article>
-            <h2>Nuestros destinos...</h2>
+            <h2 id="colombia">Nuestros destinos...</h2>
             <section>
                 <h3>Colombia</h3>
                 <p>¿Estás buscando un destino lleno de emociones y experiencias inolvidables? ¡Entonces Colombia es tu próximo destino! Desde las vibrantes ciudades como Bogotá y Medellín hasta las playas paradisíacas de Cartagena y Santa Marta, Colombia ofrece una variedad única de paisajes y culturas.</p>
@@ -33,7 +49,7 @@
                     <a href="colombia.html">
                     <img src="https://cr00.epimg.net/radio/imagenes/2020/02/23/a_vivir_que_son_dos_dias/1582488490_859581_1582488747_noticia_normal.jpg" alt="Guatapé" width="40%">
                     </a>
-                    <figcaption>Guatapé, Colombia.</figcaption>
+                    <figcaption id="venezuela">Guatapé, Colombia.</figcaption>
                 </figure>
             </section>
             <section>
@@ -43,7 +59,7 @@
                     <a href="venezuela.html">
                     <img src="https://elsouvenir.com/wp-content/uploads/2014/07/Los-Roques-Venezuela-2-1000x600.jpg" alt="Los roques" width="40%">
                 </a>
-                    <figcaption>Los Roques, Venezuela.</figcaption>
+                    <figcaption id="brasil">Los Roques, Venezuela.</figcaption>
                 </figure>
             </section>
             <section>
@@ -53,7 +69,7 @@
                     <a href="brasil.html">
                     <img src="https://th.bing.com/th/id/OIP.nFDEW7Fg7KSBMPxiKx4GqQHaE7?rs=1&pid=ImgDetMain" alt="Rio de Janeiro" width="40%">
                 </a>
-                    <figcaption>Rio de Janeiro, Brasil.</figcaption>
+                    <figcaption id="mexico">Rio de Janeiro, Brasil.</figcaption>
                 </figure>
             </section>
             <section>
@@ -63,7 +79,7 @@
                     <a href="mexico.html">
                     <img src="https://www.debate.com.mx/__export/1500693627781/sites/debate/img/2017/07/21/chichenitza.jpg_423682102.jpg" alt="chichenitza" width="40%">
                     </a>
-                    <figcaption>Chichen Itza, México.</figcaption>
+                    <figcaption id="canada">Chichen Itza, México.</figcaption>
                 </figure>
             </section>
             <section>
@@ -73,11 +89,11 @@
                     <a href="canada.html">
                     <img src="https://mcdn.wallpapersafari.com/medium/94/47/V4A9hm.jpg" alt="Toronto" width="40%">
                 </a>
-                    <figcaption>Toronto, Canadá.</figcaption>
+                    <figcaption id="argentina">Toronto, Canadá.</figcaption>
                 </figure>
             </section>
             <section>
-                <h3>Argentina</h3>
+                <h3 >Argentina</h3>
                 <p>¿Listo para una aventura inolvidable en el país del tango, el fútbol y el mate? ¡Argentina te espera con los brazos abiertos para ofrecerte una experiencia llena de pasión, cultura y paisajes impresionantes! Desde las majestuosas cataratas del Iguazú hasta los picos nevados de la Patagonia, Argentina te sorprenderá en cada paso del camino.</p>
                 <figure>
                     <a href="argentina.html">
@@ -88,10 +104,16 @@
             </section>
         </article>
         
-        <aside>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/c2c2kB2RVuc?si=Z1JQ7sfit-vZ_TTE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <aside id="aux">
+            <iframe src="https://www.youtube.com/embed/c2c2kB2RVuc?si=Z1JQ7sfit-vZ_TTE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </aside>
     </main>
+
+    <div id="Return">
+        <a href="#inicio">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAACaUlEQVR4nO3cu24TQRiG4U+iQdTQQsQphEAF18Ch4JwL4RqCuB4OFdBRwQVQkwCJoEMoBdjNh0YaS1bk2DPrtffX7vtIU2Uz+ytv1puVFUsAAAAAAAAAAESxmRcCuCzpQNIvSde6Hmbozkvak+S8fki62PVQQ7UhaX8qxmTt569hzVfG1xkxJusbV0qcGJ6KcmmNcw3ShcIYk/WdKHFimCjxYpgoq4mxt0QMogSM4akrJT1IooGNlmNMPzwSJUgME6Xelfxb7BWvn5K2Gsw3uBgHa4hBlJZj/G3pGOdzpnOjYYyRpAcFx92piJJevq5TpHkMFRyb3K2Ikt5PGXyUqw1jlAZJiFIR47AixsNj318aJLnHlbLaGLVBEqK0FOPRCfvUBknuS/pXcU/ZVs9tthSjaZCEKNm5iifw0YIYywRR3ntUOEua+ax6aLfwBzCW9Lhgv2WCKJ9jXDjTS/XQ+8IYTwr3WzaI8rlKonxUD70uiPG0Yr82giifc1GUD+qh5wtiPKvcr60gyueeFyXN3junJX0+4Qa+02A/txhEeYZZN/pPefZeOiPphaQv+c/fV5JuNdzLLQdJbueX1sM8426eGR0FwRJMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFj+zAnyu+vhhujtnCBvuh5uiLYlHc2IcTSEj1WK6mb+DJVx/qf/d5JudD0UpFN5AQAAAAAAAAAA6Jj/L9Kpftyp8KwAAAAASUVORK5CYII=">
+        </a>
+    </div>
 
     <footer>
         <h3>Sitio Agencia Travel Partner</h3>
