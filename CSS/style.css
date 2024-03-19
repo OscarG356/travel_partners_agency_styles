@@ -158,6 +158,12 @@ article h3{
     font-size: 25px;
 }
 
+article li{
+    text-decoration: none;
+    list-style-type: none; 
+    color: black;
+}
+
 article figure img:hover{
     width: 45%;
     box-shadow: black 2px 2px;
@@ -170,16 +176,13 @@ article figure img:not(:hover){
 
 #aux{
     grid-area: asi;
+    height: auto;
     border: 1px solid black;
     border-radius: 20px;
     padding: 10px;
     align-self: center;
     margin-top: 10px;
     background-color: #fae38e;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
 }
 
 #aux h2{
@@ -190,9 +193,25 @@ article figure img:not(:hover){
     text-align: center;
 }
 
-#aux img{
-    width: 25%;
-    margin: 10px;
+#aux hr{
+    border-color: black;
+}
+
+#container {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+    align-items: stretch;
+    justify-content: center;
+    gap: 10px;
+}
+
+#aux img, iframe{
+    width: 30%;
+    flex-grow: 0;
+    flex-shrink: 1;
 }
 
 footer{
