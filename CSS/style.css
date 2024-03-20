@@ -52,7 +52,7 @@ header nav ul li a {
     color: black;
 }
 
-#Return{
+.Return{
     border-radius: 50px;
     border: 1px solid;
     background-color: rgb(142, 249, 231);
@@ -63,21 +63,21 @@ header nav ul li a {
     left: 95%;
 }
 
-  #Return a img {
-    display: block;
-  }
+.Return a img {
+display: block;
+}
 
-#Return :hover{
+.Return :hover{
     border-radius: 50px;
     background-color: #FAE28E;
     transition: background-color 0.5s ease 0s;
 }
 
-#Return :not(:hover){
+.Return :not(:hover){
     transition: 0.5s ease 0s;
 }
 
-#Return img{
+.Return img{
     width: 100%;
     height: auto;
 }
@@ -93,7 +93,7 @@ main{
       "nav asi"; 
 }
 
-#title{
+.title{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-style: italic;
     font-size: 30px;
@@ -102,12 +102,12 @@ main{
     text-align: center;
 }
 
-#nav-aside{
+.nav-aside{
     grid-area: nav;
     margin: 10px;
 }
 
-#nav-aside nav{
+.nav-aside nav{
     position: fixed;
     left: 12px;
     top: 350px;
@@ -118,24 +118,24 @@ main{
     border-radius: 10px;
 }
 
-#nav-aside nav ul{
+.nav-aside nav ul{
     list-style-type: none;  
     padding: 10px 40px 10px 40px;
 }
 
-#nav-aside nav ul li a{
+.nav-aside nav ul li a{
     text-decoration: none;
     color: black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-#nav-aside nav ul li :hover{
+.nav-aside nav ul li :hover{
     color: white;
     text-shadow: black 1px 1px;
     transition: all 0.5s ease 0s;
 }
 
-#nav-aside nav ul li :not(:hover){
+.nav-aside nav ul li :not(:hover){
     transition: all 0.5s ease 0s;
 }
 
@@ -174,7 +174,7 @@ article figure img:not(:hover){
     transition: all 0.5s ease 0s;
 }
 
-#aux{
+.aux{
     grid-area: asi;
     height: auto;
     border: 1px solid black;
@@ -185,7 +185,7 @@ article figure img:not(:hover){
     background-color: #fae38e;
 }
 
-#aux h2{
+.aux h2{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 30px;
     text-decoration: underline;
@@ -193,11 +193,11 @@ article figure img:not(:hover){
     text-align: center;
 }
 
-#aux hr{
+.aux hr{
     border-color: black;
 }
 
-#container {
+.container {
     width: 100%;
     height: 700px;
     display: flex;
@@ -208,7 +208,7 @@ article figure img:not(:hover){
     gap: 10px;
 }
 
-#aux img, iframe{
+.aux img, iframe{
     width: 30%;
     flex-grow: 0;
     flex-shrink: 1;
@@ -225,4 +225,13 @@ footer{
 footer a{
     text-decoration: none;
     color: black;
+}
+
+#hidden{
+    display: none;
+}
+
+.descripcion #hidden :target{
+    display: block;
+    width: 100%;
 }
