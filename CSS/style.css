@@ -2,6 +2,7 @@ body{
     width: 100%;
     margin: 0;
     padding: 0;
+    background-color: #f4f4f4;
 }
 header img {
     width: 100%;
@@ -86,6 +87,7 @@ display: block;
 
 main{
     display: grid;
+    padding: 10px;
     grid-template-columns: 1fr 6fr; 
     grid-template-rows: auto; 
     grid-template-areas: 
@@ -144,9 +146,11 @@ main{
 article{
     grid-area: art;
     border: 1px solid black;
+    background-color: white;
     border-radius: 20px;
     padding: 50px;
     text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
 }
 
 article h2{
@@ -185,6 +189,10 @@ article figure img:not(:hover){
     align-self: center;
     margin-top: 10px;
     background-color: #fae38e;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 #aux h2{
@@ -195,8 +203,9 @@ article figure img:not(:hover){
     text-align: center;
 }
 
-#aux hr{
-    border-color: black;
+#aux iframe{
+    height: 400px;
+    width: 40%;
 }
 
 #container {
@@ -208,12 +217,6 @@ article figure img:not(:hover){
     align-items: stretch;
     justify-content: center;
     gap: 10px;
-}
-
-#aux img, iframe{
-    width: 30%;
-    flex-grow: 0;
-    flex-shrink: 1;
 }
 
 footer{
