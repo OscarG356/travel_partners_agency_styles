@@ -7,7 +7,7 @@
 </head>
 <body>
     <header>
-        <img src="https://th.bing.com/th/id/R.5e18cac779888805b68372efe5de0844?rik=yL4lzQBLQ11QiA&pid=ImgRaw&r=0" alt="Banner de Venezuela">
+        <img src="https://th.bing.com/th/id/R.5e18cac779888805b68372efe5de0844?rik=yL4lzQBLQ11QiA&pid=ImgRaw&r=0" alt="Banner de Venezuela" id="inicio">
         <nav>
             <h3>Travel Partners</h3>
             <ul>
@@ -121,24 +121,28 @@
             <section id="Itinerario">
                 <h2>Itinerario: El Salto del Ángel y Parque Nacional Canaima</h2>
                 <h3>Día 1: Llegada a Caracas y Conexión a Los Roques</h3>
-                <ul>
+                <a class="hidden" href="#dia_1">Ver Itinerario</a>
+                <ul id="dia_1">
                     <li>Llegada a Caracas: Comienza tu aventura en la capital de Venezuela, Caracas.</li>
                     <li>Conexión en el aeropuerto: Desde Caracas, toma un vuelo hacia Los Roques.</li>
                 </ul>
 
                 <h3>Días 2 y 3: Explorando Los Roques</h3>
-                <ul>
+                <a class="hidden" href="#dia_2">Ver Itinerario</a>
+                <ul id="dia_2">
                     <li>Los Roques: Disfruta de dos días explorando este hermoso archipiélago. Realiza paseos a los cayos y relájate en sus playas de aguas cristalinas.</li>
                 </ul>
 
                 <h3>Día 4: Viaje a Canaima y Visita a los Tepuis</h3>
-                <ul>
+                <a class="hidden" href="#dia_4">Ver Itinerario</a>
+                <ul id="dia_4">
                     <li>Salida en avión hacia Canaima: Aborda un vuelo hacia Canaima.</li>
                     <li>Visita a la laguna y los famosos tepuis Hacha y Golondrina: En Canaima, maravíllate con las vistas de los icónicos tepuis (mesetas) como el Auyántepui. Explora la laguna y admira las majestuosas cascadas.</li>
                 </ul>
 
                 <h3>Día 5: Excursión al Salto Ángel</h3>
-                <ul>
+                <a class="hidden" href="#dia_5">Ver Itinerario</a>
+                <ul id="dia_5">
                     <li>El Salto del Ángel: Emocionante excursión al Salto Ángel, la cascada más alta del mundo con 979 metros de caída. Viaja en canoa motorizada por los ríos Carrao y Churún hasta llegar a Isla Ratón, donde podrás ver las cataratas en toda su gloria.</li>
                 </ul>
             </section>
@@ -150,12 +154,18 @@
             </section>
         </article>
         
-        <aside>
-            <iframe width="600" height="400" src="https://www.youtube.com/embed/wCqlU98hQU0?si=G7u_Zpxe8CuGftmJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <hr>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d249907.31578546728!2d-66.91558343411552!3d11.849142313099374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c2853b455e6cea7%3A0x712f7a82d6570ba!2sArchipi%C3%A9lago%20Los%20Roques!5e0!3m2!1ses!2sco!4v1709331932724!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <aside id="aux">
+            <h2>Más Info</h2>
+            <iframe src="https://www.youtube.com/embed/wCqlU98hQU0?si=G7u_Zpxe8CuGftmJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d249907.31578546728!2d-66.91558343411552!3d11.849142313099374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c2853b455e6cea7%3A0x712f7a82d6570ba!2sArchipi%C3%A9lago%20Los%20Roques!5e0!3m2!1ses!2sco!4v1709331932724!5m2!1ses!2sco" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </aside>
     </main>
+
+    <div id="Return">
+        <a href="#inicio">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAACaUlEQVR4nO3cu24TQRiG4U+iQdTQQsQphEAF18Ch4JwL4RqCuB4OFdBRwQVQkwCJoEMoBdjNh0YaS1bk2DPrtffX7vtIU2Uz+ytv1puVFUsAAAAAAAAAAESxmRcCuCzpQNIvSde6Hmbozkvak+S8fki62PVQQ7UhaX8qxmTt569hzVfG1xkxJusbV0qcGJ6KcmmNcw3ShcIYk/WdKHFimCjxYpgoq4mxt0QMogSM4akrJT1IooGNlmNMPzwSJUgME6Xelfxb7BWvn5K2Gsw3uBgHa4hBlJZj/G3pGOdzpnOjYYyRpAcFx92piJJevq5TpHkMFRyb3K2Ikt5PGXyUqw1jlAZJiFIR47AixsNj318aJLnHlbLaGLVBEqK0FOPRCfvUBknuS/pXcU/ZVs9tthSjaZCEKNm5iifw0YIYywRR3ntUOEua+ax6aLfwBzCW9Lhgv2WCKJ9jXDjTS/XQ+8IYTwr3WzaI8rlKonxUD70uiPG0Yr82giifc1GUD+qh5wtiPKvcr60gyueeFyXN3junJX0+4Qa+02A/txhEeYZZN/pPefZeOiPphaQv+c/fV5JuNdzLLQdJbueX1sM8426eGR0FwRJMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFj+zAnyu+vhhujtnCBvuh5uiLYlHc2IcTSEj1WK6mb+DJVx/qf/d5JudD0UpFN5AQAAAAAAAAAA6Jj/L9Kpftyp8KwAAAAASUVORK5CYII=">
+        </a>
+    </div>
 
     <footer>
         <h3>Sitio Agencia Travel Partner</h3>
