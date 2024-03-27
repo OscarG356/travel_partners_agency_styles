@@ -3,12 +3,13 @@
 <head>
     <title>Travel Partners - Colombia</title>
     <link rel="icon" href="https://img.icons8.com/external-vitaliy-gorbachev-lineal-color-vitaly-gorbachev/60/external-plane-online-shopping-vitaliy-gorbachev-lineal-color-vitaly-gorbachev.png" type="image/x-icon" />
+    <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
     <header>
-        <img src="https://th.bing.com/th/id/R.5e18cac779888805b68372efe5de0844?rik=yL4lzQBLQ11QiA&pid=ImgRaw&r=0" alt="Banner de Venezuela" width="100%" height="500px">
-        <h1>Venezuela</h1>
+        <img src="https://th.bing.com/th/id/R.5e18cac779888805b68372efe5de0844?rik=yL4lzQBLQ11QiA&pid=ImgRaw&r=0" alt="Banner de Venezuela" id="inicio">
         <nav>
+            <h3>Travel Partners</h3>
             <ul>
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="colombia.html">Colombia</a></li>
@@ -22,10 +23,92 @@
         </nav>
     </header>
     <main>
+        <div id="title">
+            <h1>Venezuela</h1>
+            <hr>
+        </div>
+        <aside id="nav-aside">
+            <nav>
+                <ul>
+                    <li><a href="#descripcion">Galería</a></li>
+                    <li><a href="#Itinerario">Itinerario</a></li>
+                    <li><a href="#costos">Costos</a></li>
+                    <li><a href="#aux">Extras</a></li>
+                </ul>
+            </nav>
+        </aside>
         <article>
-            <section>
+            <section id="descripcion">
                 <h2>Venezuela: Entre Colores, Sabores y Sonrisas <img width="40" height="40" src="https://img.icons8.com/color/48/venezuela-circular.png" alt="venezuela-circular"/></h2>
-                <img src="https://th.bing.com/th/id/R.3a12531d761a3994c11ca455164f0ed4?rik=7dwpF%2bQM%2fHPfKw&riu=http%3a%2f%2fwww.beach-on-map.com%2fimg%2f14%2fvenezuela-cayo-sombrero-island-beach-orig.jpg&ehk=fCt6k0nEF9xDQf3nSpIpG9jtUWyNsJRaRvkasI6vss0%3d&risl=&pid=ImgRaw&r=0" alt="Cayo Sombrero" width="50%">
+                <div id="gallery">
+                    <figure class="fig30">
+                        <img src="https://th.bing.com/th/id/R.d962df45d216abfdb9f5f8e74c6cbcf6?rik=focg492r1ElLKg&pid=ImgRaw&r=0" alt="Caracas">
+                        <div class="shadow"></div>
+                        <p>Caracas</p>
+                    </figure>
+                    <figure class="fig30">
+                        <img src="https://th.bing.com/th/id/R.38b5b9a899a04d0ba93bcd144ea09eb8?rik=vO6fKDkSC9A1qg&pid=ImgRaw&r=0" alt="Los Roques">
+                        <div class="shadow"></div>
+                        <p>Los Roques</p>
+                    </figure>
+                    <figure class="fig30">
+                        <img src="https://i.pinimg.com/originals/b8/f9/e6/b8f9e675500f54028b214e688bc73a40.jpg" alt="A Roques">
+                        <div class="shadow"></div>
+                        <p>Árchipielago Los Roques</p>
+                    </figure>
+                    <figure class="fig30">
+                        <img src="https://turksandcaicostourism.com/wp-content/uploads/2020/10/turks-and-caicos-romantic-destination-2020-768x547.jpg" alt="Yate-Roques">
+                        <div class="shadow"></div>
+                        <p>Paseo en Yate</p>
+                    </figure>
+                    <figure class="fig30">
+                        <img src="https://th.bing.com/th/id/R.56a87a49637602f97fcf29f8cdca17aa?rik=bmD4dF%2bbaPsFkg&riu=http%3a%2f%2fimg.xcitefun.net%2fusers%2f2014%2f07%2f361230%2cxcitefun-canaima-national-park-9.jpg&ehk=6E%2bcL%2b21FRe4J4tbeHOw4Cf65QJXwUtIQj9ynvST5ZM%3d&risl=&pid=ImgRaw&r=0" alt="Canaima">
+                        <div class="shadow"></div>
+                        <p>Parque Nacional Canaima</p>
+                    </figure>
+                    <figure class="fig30">
+                        <img src="https://th.bing.com/th/id/R.e3079747f7468c1d6dc5d56a7bfdbaaa?rik=rgNOV6L0aCLlUA&riu=http%3a%2f%2f3.bp.blogspot.com%2f-KnNbE7aLi3M%2fUFhRqOl1akI%2fAAAAAAAACho%2f2ICFvNF0Sp0%2fs1600%2f001.jpeg&ehk=ImjrXdKcdaFRKde855kA3EA%2byseKQGQnGXRgKJJLJSE%3d&risl=&pid=ImgRaw&r=0" alt="Roraima">
+                        <div class="shadow"></div>
+                        <p>Monte Roraima</p>
+                    </figure>
+                    <figure class="fig30">
+                        <img src="https://th.bing.com/th/id/OIP.SE1BDJnH-mB7XcLQzTzuUgHaE6?rs=1&pid=ImgDetMain" alt="Tepui">
+                        <div class="shadow"></div>
+                        <p>Tepui</p>
+                    </figure>
+                    <figure class="fig30">
+                        <img src="https://th.bing.com/th/id/OIP.Tr57UtFykbpR48OtzYCjkQHaEK?rs=1&pid=ImgDetMain" alt="Salto del angel">
+                        <div class="shadow"></div>
+                        <p>Salto del Angel</p>
+                    </figure>
+                    <figure class="fig30">
+                        <img src="https://live.staticflickr.com/4599/39011217661_e46043fd36_b.jpg" alt="Kukena">
+                        <div class="shadow"></div>
+                        <p>Tepui Kukenan</p>
+                    </figure>
+                    <figure class="fig30">
+                        <img src="https://hoycuriosidades.com/wp-content/uploads/2021/08/Salto-del-Angel.jpg" alt="Salto">
+                        <div class="shadow"></div>
+                        <p>Salto del Angel</p>
+                    </figure>
+                    <figure class="fig30">
+                        <img src="https://3.bp.blogspot.com/-4J8BvjrNIUw/Tzf5yTYfxGI/AAAAAAAAALc/75oD4fNeqTU/s1600/IMG_2340.JPG" alt="Angel">
+                        <div class="shadow"></div>
+                        <p>Cascada del Angel</p>
+                    </figure>
+                    <figure class="fig30">
+                        <img src="https://www.tresorsdumonde.fr/wp-content/uploads/2014/12/TEPUI-1.jpg" alt="Monte del diablo">
+                        <div class="shadow"></div>
+                        <p>Monte del Diablo</p>
+                    </figure>
+                    <figure class="fig30">
+                        <img src="https://blog.123milhas.com/wp-content/uploads/2022/01/IMAGEM-02-TREKKING-NO-MONTE-RORAIMA-LAGOS-TEM-QUE-IR-TURISMO-DE-AVENTURA-1024X750-123-MILHAS.jpg" alt="Jacuzzi Roraima">
+                        <div class="shadow"></div>
+                        <p>Jacuzzi Roraima</p>
+                    </figure>
+                </div>
+                <a class="hidden" href="#hidden_desc">Ver descripción</a>
+                <div id="hidden_desc">
                 <p>Venezuela, un país lleno de contrastes y maravillas naturales que te dejarán sin aliento. Desde las playas de arena blanca y aguas cristalinas de Los Roques hasta los picos nevados de los Andes venezolanos, cada rincón de este país ofrece una experiencia única y emocionante para los viajeros.</p>
                 
                 <p>Explora la belleza de la Gran Sabana y maravíllate con los tepuyes imponentes que se alzan sobre la selva, o aventúrate en el Delta del Orinoco para descubrir una biodiversidad única en el mundo. Sumérgete en la rica historia y cultura de ciudades como Caracas, Mérida y Valencia, donde la música, el arte y la gastronomía reflejan la diversidad del país.</p>
@@ -33,48 +116,56 @@
                 <p>Pero Venezuela es mucho más que su paisaje natural y su patrimonio cultural. Es la calidez y la hospitalidad de su gente, que te recibirán con los brazos abiertos y una sonrisa sincera. Es la pasión y la alegría que se refleja en cada fiesta y celebración, en cada nota de música y en cada plato de comida.</p>
                 
                 <p>Descubre Venezuela, un país donde cada amanecer es una aventura esperando ser vivida. ¡Ven y déjate llevar por la magia de este hermoso rincón de Sudamérica!</p>
+                </div>
             </section>
-            <section>
+            <section id="Itinerario">
                 <h2>Itinerario: El Salto del Ángel y Parque Nacional Canaima</h2>
                 <h3>Día 1: Llegada a Caracas y Conexión a Los Roques</h3>
-                <ul>
+                <a class="hidden" href="#dia_1">Ver Itinerario</a>
+                <ul id="dia_1">
                     <li>Llegada a Caracas: Comienza tu aventura en la capital de Venezuela, Caracas.</li>
                     <li>Conexión en el aeropuerto: Desde Caracas, toma un vuelo hacia Los Roques.</li>
                 </ul>
 
                 <h3>Días 2 y 3: Explorando Los Roques</h3>
-                <ul>
+                <a class="hidden" href="#dia_2">Ver Itinerario</a>
+                <ul id="dia_2">
                     <li>Los Roques: Disfruta de dos días explorando este hermoso archipiélago. Realiza paseos a los cayos y relájate en sus playas de aguas cristalinas.</li>
                 </ul>
 
                 <h3>Día 4: Viaje a Canaima y Visita a los Tepuis</h3>
-                <ul>
+                <a class="hidden" href="#dia_4">Ver Itinerario</a>
+                <ul id="dia_4">
                     <li>Salida en avión hacia Canaima: Aborda un vuelo hacia Canaima.</li>
                     <li>Visita a la laguna y los famosos tepuis Hacha y Golondrina: En Canaima, maravíllate con las vistas de los icónicos tepuis (mesetas) como el Auyántepui. Explora la laguna y admira las majestuosas cascadas.</li>
                 </ul>
 
                 <h3>Día 5: Excursión al Salto Ángel</h3>
-                <ul>
+                <a class="hidden" href="#dia_5">Ver Itinerario</a>
+                <ul id="dia_5">
                     <li>El Salto del Ángel: Emocionante excursión al Salto Ángel, la cascada más alta del mundo con 979 metros de caída. Viaja en canoa motorizada por los ríos Carrao y Churún hasta llegar a Isla Ratón, donde podrás ver las cataratas en toda su gloria.</li>
                 </ul>
             </section>
-            <section>
+            <section id="costos">
                 <h2>Costos aproximados:</h2>
-                <ul>
-                    <li>Vuelos: Los vuelos desde Caracas a Los Roques y luego a Canaima tendrán costos variables según la temporada y la aerolínea.</li>
-                    <li>Hospedaje: Puedes elegir entre alojarte en albergues estándar en la laguna de Canaima o frente al Salto Ángel. Los precios varían según la comodidad y la ubicación.</li>
-                    <li>Entradas a sitios turísticos: Debes considerar el costo de las entradas al Parque Nacional Canaima y cualquier otro sitio que desees visitar.</li>
-                    <li>Traslados: Los traslados entre los destinos estarán incluidos en los paquetes turísticos o deberás coordinarlos por separado.</li>
-                </ul>                            
+                <p>Únete a nosotros en esta aventura única llena de paisajes espectaculares, cultura vibrante y experiencias inolvidables. ¡Te esperamos en Venezuela!</p>
+                <p><strong>¡Reserva tu viaje ahora y prepárate para vivir una experiencia que recordarás para siempre!</strong></p> 
+                <a class="hidden" href="Presupuestos/venezuela.html" target="_blank">Costos detallados</a>
             </section>
         </article>
         
-        <aside>
-            <iframe width="600" height="400" src="https://www.youtube.com/embed/wCqlU98hQU0?si=G7u_Zpxe8CuGftmJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <hr>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d249907.31578546728!2d-66.91558343411552!3d11.849142313099374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c2853b455e6cea7%3A0x712f7a82d6570ba!2sArchipi%C3%A9lago%20Los%20Roques!5e0!3m2!1ses!2sco!4v1709331932724!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <aside id="aux">
+            <h2>Más Info</h2>
+            <iframe src="https://www.youtube.com/embed/wCqlU98hQU0?si=G7u_Zpxe8CuGftmJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d249907.31578546728!2d-66.91558343411552!3d11.849142313099374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c2853b455e6cea7%3A0x712f7a82d6570ba!2sArchipi%C3%A9lago%20Los%20Roques!5e0!3m2!1ses!2sco!4v1709331932724!5m2!1ses!2sco" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </aside>
     </main>
+
+    <div id="Return">
+        <a href="#inicio">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAACaUlEQVR4nO3cu24TQRiG4U+iQdTQQsQphEAF18Ch4JwL4RqCuB4OFdBRwQVQkwCJoEMoBdjNh0YaS1bk2DPrtffX7vtIU2Uz+ytv1puVFUsAAAAAAAAAAESxmRcCuCzpQNIvSde6Hmbozkvak+S8fki62PVQQ7UhaX8qxmTt569hzVfG1xkxJusbV0qcGJ6KcmmNcw3ShcIYk/WdKHFimCjxYpgoq4mxt0QMogSM4akrJT1IooGNlmNMPzwSJUgME6Xelfxb7BWvn5K2Gsw3uBgHa4hBlJZj/G3pGOdzpnOjYYyRpAcFx92piJJevq5TpHkMFRyb3K2Ikt5PGXyUqw1jlAZJiFIR47AixsNj318aJLnHlbLaGLVBEqK0FOPRCfvUBknuS/pXcU/ZVs9tthSjaZCEKNm5iifw0YIYywRR3ntUOEua+ax6aLfwBzCW9Lhgv2WCKJ9jXDjTS/XQ+8IYTwr3WzaI8rlKonxUD70uiPG0Yr82giifc1GUD+qh5wtiPKvcr60gyueeFyXN3junJX0+4Qa+02A/txhEeYZZN/pPefZeOiPphaQv+c/fV5JuNdzLLQdJbueX1sM8426eGR0FwRJMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFj+zAnyu+vhhujtnCBvuh5uiLYlHc2IcTSEj1WK6mb+DJVx/qf/d5JudD0UpFN5AQAAAAAAAAAA6Jj/L9Kpftyp8KwAAAAASUVORK5CYII=">
+        </a>
+    </div>
 
     <footer>
         <h3>Sitio Agencia Travel Partner</h3>
