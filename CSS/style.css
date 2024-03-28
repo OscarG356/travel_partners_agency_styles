@@ -287,7 +287,8 @@ footer a{
 }
 
 .fig30 .shadow,
-.fig30 .sbr{
+.fig30 .sbr,
+.fig30 .smx{
     position: relative;
     width: 100%;
     height: 100%;
@@ -303,26 +304,33 @@ footer a{
 .fig30 .sbr{
     background-image: linear-gradient(#12b400,#e1ff00,#0007d2,#e1ff00,#12b400);
 }
+.fig30 .smx{
+    background-image: linear-gradient(90deg,#12b400,#fff,#f91111);
+}
 
 .fig30 .shadow:hover,
-.fig30 .sbr:hover{
+.fig30 .sbr:hover,
+.fig30 .smx:hover{
     opacity: 0.5;
     transition: all 0.4s ease-in-out 0s;
 }
 
 .fig30 .shadow:hover + p,
-.fig30 .sbr:hover + p{
+.fig30 .sbr:hover + p,
+.fig30 .smx:hover + p{
     opacity: 1;
     transition: all 0.5s ease-in-out 0s;
 }
 
 .fig30 .shadow:not(:hover),
-.fig30 .sbr:not(:hover){
+.fig30 .sbr:not(:hover),
+.fig30 .smx:not(:hover){
     transition: all 0.4s ease-in-out 0s;
 }
 
 .fig30 .shadow:not(:hover) + p,
-.fig30 .shadow:not(:hover) + p{
+.fig30 .sbr:not(:hover) + p,
+.fig30 .smx:not(:hover) + p{
     transition: all 0.5s ease-in-out 0s;
 }
 
