@@ -3,12 +3,13 @@
 <head>
     <title>Travel Partners - Colombia</title>
     <link rel="icon" href="https://img.icons8.com/external-vitaliy-gorbachev-lineal-color-vitaly-gorbachev/60/external-plane-online-shopping-vitaliy-gorbachev-lineal-color-vitaly-gorbachev.png" type="image/x-icon" />
+    <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
     <header>
-        <img src="https://edupassca.com/wp-content/uploads/2021/02/Mejor-Lugar-para-vivir-en-Canada-Toronto-scaled.jpg" alt="Banner de Candá" width="100%" height="500px">
-        <h1>Candá</h1>
+        <img src="https://edupassca.com/wp-content/uploads/2021/02/Mejor-Lugar-para-vivir-en-Canada-Toronto-scaled.jpg" alt="Banner de Candá" id="inicio">
         <nav>
+            <h3>Travel Partners</h3>
             <ul>
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="colombia.html">Colombia</a></li>
@@ -22,19 +23,87 @@
         </nav>
     </header>
     <main>
+        <div id="title">
+            <h1>Canadá</h1> 
+            <hr>
+        </div>
+        <aside id="nav-aside">
+            <nav>
+                <ul>
+                    <li><a href="#descripcion">Galería</a></li>
+                    <li><a href="#Itinerario">Itinerario</a></li>
+                    <li><a href="#costos">Costos</a></li>
+                    <li><a href="#aux">Extras</a></li>
+                </ul>
+            </nav>
+        </aside>
         <article>
-            <section>
-                <h2>Canadá: Donde la Naturaleza Es tu Mayor Aventura <img width="40" height="40" src="https://img.icons8.com/color/48/canada-circular.png" alt="canada-circular"/></h2>
-                <img src="https://familymoneyadventure.com/wp-content/uploads/2020/04/Naigara-Falls-CA-scaled.jpg" alt="Cataratas del Niagara" width="50%">
-                <p>Canadá, un vasto y majestuoso país que te sorprenderá con su belleza natural y su diversidad cultural. Desde las imponentes montañas rocosas hasta las costas escarpadas de la Columbia Británica, Canadá ofrece una experiencia única para los amantes de la naturaleza y los aventureros.</p>
-                <p>Explora los parques nacionales, donde la vida silvestre abunda y los paisajes te dejarán sin aliento. Disfruta de actividades al aire libre durante todo el año, como esquí en invierno, senderismo en verano y avistamiento de ballenas en primavera. Descubre la calidez y la hospitalidad de sus ciudades, como Vancouver, Toronto y Montreal, donde la diversidad cultural se refleja en la comida, la música y las artes.</p>
-                <p>Pero más allá de su belleza natural, Canadá es un país de gente amable y acogedora. Con una reputación mundial de hospitalidad, los canadienses te recibirán con los brazos abiertos y te harán sentir como en casa. Ven y descubre la grandeza de Canadá, donde cada día es una nueva aventura en la naturaleza.</p>
+            <section id="descripcion">
+                <h2>Donde la Naturaleza Es tu Mayor Aventura <img width="40" height="40" src="https://img.icons8.com/color/48/canada-circular.png" alt="canada-circular"/></h2>
+                
+                <div id="gallery">
+                    <figure class="fig30">
+                        <img src="https://familymoneyadventure.com/wp-content/uploads/2020/04/Naigara-Falls-CA-scaled.jpg" alt="Cataratas del Niagara">
+                        <div class="scda"></div>
+                        <p>Cataratas del Niagara</p>
+                    </figure>
+                    <figure class="fig30">
+                        <img src="https://th.bing.com/th/id/R.ef9151520147e0c002c4379ecad8bd6b?rik=Gb339uYSx8TCLA&pid=ImgRaw&r=0" alt="Toronto">
+                        <div class="scda"></div>
+                        <p>Toronto</p>
+                    </figure>
+                    <figure class="fig30">
+                        <img src="https://th.bing.com/th/id/R.84bf21bd3372983c28e438dabe7b9a25?rik=PSNBuIy%2fc1V%2fYQ&riu=http%3a%2f%2f1.bp.blogspot.com%2f-RBKfR0jY1HE%2fUtapcs-ASFI%2fAAAAAAAAB9A%2fqet8CbttnjM%2fs1600%2fniagara_falls__canada_travel_.jpg&ehk=AH3ejYWc3oK9xecv2AEPCWjFijO7LB7mIeNXzOGaNUE%3d&risl=&pid=ImgRaw&r=0" alt="Lago Ontario">
+                        <div class="scda"></div>
+                        <p>Lago Ontario</p>
+                    </figure>
+                    <figure class="fig30">
+                        <img src="https://etniasdelmundo.com/wp-content/uploads/2020/07/MUSEO-REAL-DE-ONTARIO-3.jpg" alt="Museo Real de Ontario">
+                        <div class="scda"></div>
+                        <p>Museo Real de Ontario</p>
+                    </figure>
+                    <figure class="fig30">
+                        <img src="https://viajedemivida.es/wp-content/uploads/2019/12/distillery-district-toronto-canada-1.jpg" alt="Distillery District">
+                        <div class="scda"></div>
+                        <p>Distillery District</p>
+                    </figure>
+                    <figure class="fig30">
+                        <img src="https://th.bing.com/th/id/OIP.jjlP2jPqZjhzadm1W3uvwgHaEK?rs=1&pid=ImgDetMain" alt="Cataratas del Niagara">
+                        <div class="scda"></div>
+                        <p>Cataratas del Niagara</p>
+                    </figure>
+                    <figure class="fig30">
+                        <img src="https://th.bing.com/th/id/OIP.CdP48vD6xGdwZrISPBAT2gHaPj?rs=1&pid=ImgDetMain" alt="Torre CN">
+                        <div class="scda"></div>
+                        <p>Torre CN</p>
+                    </figure>
+                    <figure class="fig30">
+                        <img src="https://i.redd.it/yz9ky7o5os7z.jpg" alt="Montreal">
+                        <div class="scda"></div>
+                        <p>Montreal</p>
+                    </figure>   
+                    <figure class="fig30">
+                        <img src="https://th.bing.com/th/id/R.474ddcb969ff4040c29571d1c8f002d4?rik=L581Ab4LzjAiWA&pid=ImgRaw&r=0" alt="Kensington Market">
+                        <div class="scda"></div>
+                        <p>Kensington Market</p>
+                    </figure>
+                    <figure class="fig30">
+                        <img src="https://th.bing.com/th/id/R.8d05e00d282a53f95090c52bf10c3c32?rik=QIG0eWJh7TN55Q&riu=http%3a%2f%2fi-wish-you-were-here.com%2fsites%2fdefault%2ffiles%2fstyles%2fmedium%2fpublic%2fimagepicker%2f1%2fToronto_Chinatown_public_art_Wikipedia.jpg%3fitok%3dFJYwOG9V&ehk=UTzitb%2ft7g32gcDREvbGGrEmj4u5%2bd8Co8POv1g5dl4%3d&risl=&pid=ImgRaw&r=0" alt="Chinatown Toronto">
+                        <div class="scda"></div>
+                        <p>Chinatown Toronto</p>
+                    </figure>
+                </div>
+                <div id="hidden_desc">
+                    <p>Canadá, un vasto y majestuoso país que te sorprenderá con su belleza natural y su diversidad cultural. Desde las imponentes montañas rocosas hasta las costas escarpadas de la Columbia Británica, Canadá ofrece una experiencia única para los amantes de la naturaleza y los aventureros.</p>
+                    <p>Explora los parques nacionales, donde la vida silvestre abunda y los paisajes te dejarán sin aliento. Disfruta de actividades al aire libre durante todo el año, como esquí en invierno, senderismo en verano y avistamiento de ballenas en primavera. Descubre la calidez y la hospitalidad de sus ciudades, como Vancouver, Toronto y Montreal, donde la diversidad cultural se refleja en la comida, la música y las artes.</p>
+                    <p>Pero más allá de su belleza natural, Canadá es un país de gente amable y acogedora. Con una reputación mundial de hospitalidad, los canadienses te recibirán con los brazos abiertos y te harán sentir como en casa. Ven y descubre la grandeza de Canadá, donde cada día es una nueva aventura en la naturaleza.</p>
+                </div>
             </section>
-
-            <section>
+            <section id="Itinerario">
                 <h2>Itinerario de 5 días en Canadá</h2>
                 <h3>Día 1: Llegada a Toronto</h3>
-                <ul>
+                <a class="hidden" href="#dia_1">Ver Itinerario</a>
+                <ul id="dia_1">
                     <li>Llegada al aeropuerto internacional de Toronto y traslado al hotel.</li>
                     <li>Registro en el hotel y tiempo para descansar y refrescarse.</li>
                     <li>Por la tarde, paseo por el Distrito Financiero de Toronto, incluyendo la Torre CN y el Harbourfront.</li>
@@ -42,7 +111,8 @@
                 </ul>
 
                 <h3>Día 2: Toronto</h3>
-                <ul>
+                <a class="hidden" href="#dia_2">Ver Itinerario</a>
+                <ul id="dia_2">
                     <li>Por la mañana, visita al Museo Real de Ontario para explorar sus colecciones de arte, historia natural y cultura mundial.</li>
                     <li>Almuerzo en el barrio multicultural de Kensington Market, conocido por sus restaurantes internacionales y tiendas vintage.</li>
                     <li>Por la tarde, recorrido por el barrio histórico de Distillery District, hogar de galerías de arte, tiendas boutique y cafeterías.</li>
@@ -50,7 +120,8 @@
                 </ul>
 
                 <h3>Día 3: Cataratas del Niágara</h3>
-                <ul>
+                <a class="hidden" href="#dia_3">Ver Itinerario</a>
+                <ul id="dia_3">
                     <li>Excursión de día completo a las majestuosas Cataratas del Niágara.</li>
                     <li>Visita a Journey Behind the Falls para experimentar las cataratas desde detrás de la cortina de agua.</li>
                     <li>Almuerzo con vistas panorámicas a las cataratas.</li>
@@ -59,7 +130,8 @@
                 </ul>
 
                 <h3>Día 4: Montreal</h3>
-                <ul>
+                <a class="hidden" href="#dia_4">Ver Itinerario</a>
+                <ul id="dia_4">
                     <li>Salida temprano hacia Montreal en tren o avión.</li>
                     <li>Llegada a Montreal y registro en el hotel.</li>
                     <li>Visita al Viejo Montreal, explorando sus calles empedradas, la Basílica de Notre-Dame y el Puerto Viejo.</li>
@@ -69,7 +141,8 @@
                 </ul>
 
                 <h3>Día 5: Mont-Royal y despedida</h3>
-                <ul>
+                <a class="hidden" href="#dia_5">Ver Itinerario</a>
+                <ul id="dia_5">
                     <li>Por la mañana, ascenso al Mont-Royal para disfrutar de vistas panorámicas de Montreal.</li>
                     <li>Visita al Mercado Jean-Talon para disfrutar de productos frescos y delicias culinarias locales.</li>
                     <li>Tiempo libre para compras de último momento o exploración adicional.</li>
@@ -77,25 +150,26 @@
                 </ul>
             </section>
             
-            <section>
+            <section id="costos">
                 <h2>Costos aproximados:</h2>
-                <ul>
-                    <li>Vuelos: Los precios pueden variar según la temporada y la aerolínea, pero un estimado de ida y vuelta desde Estados Unidos podría oscilar entre $300 y $800 por persona.</li>
-                    <li>Alojamiento: El costo de alojamiento en hoteles de gama media en Toronto y Montreal puede estar entre $80 y $150 por noche por habitación doble.</li>
-                    <li>Transporte: Se pueden utilizar servicios de transporte público, como trenes o autobuses, así como taxis o servicios de transporte privado. Se estima un gasto de $20 a $50 por día en transporte.</li>
-                    <li>Entradas a sitios turísticos: El costo de entrada a lugares como el Museo Real de Ontario, las Cataratas del Niágara y el Museo de Bellas Artes de Montreal puede sumar alrededor de $50 por persona.</li>
-                    <li>Comida: Se puede planificar un presupuesto de $30 a $60 por día por persona para comidas, dependiendo del tipo de restaurantes y la cantidad de comidas incluidas.</li>
-                </ul>                                             
+                <p>¡Descubre la belleza y la diversidad de Canadá en un emocionante viaje de 5 días! Desde la majestuosidad de las Cataratas del Niágara hasta la vibrante vida urbana de Toronto y Montreal, te invitamos a sumergirte en una experiencia única llena de paisajes impresionantes, cultura fascinante y momentos inolvidables.</p>
+                <p><strong>¡Reserva ahora y déjate llevar por la magia de Canadá!</strong></p>
+                <a class="hidden" href="Presupuestos/canada.html" target="_blank">Costos detallados</a>
             </section>
-
         </article>
         
-        <aside>
-            <iframe width="600" height="400" src="https://www.youtube.com/embed/TknrmpS4GOg?si=_hneYx0Y-8vJhnFB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <hr>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d184552.67410569743!2d-79.54286632320922!3d43.7181228028861!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4cb90d7c63ba5%3A0x323555502ab4c477!2sToronto%2C%20Ontario%2C%20Canad%C3%A1!5e0!3m2!1ses!2sco!4v1709336598338!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <aside id="aux">
+            <h2>Más Info</h2>
+            <iframe src="https://www.youtube.com/embed/TknrmpS4GOg?si=_hneYx0Y-8vJhnFB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d184552.67410569743!2d-79.54286632320922!3d43.7181228028861!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4cb90d7c63ba5%3A0x323555502ab4c477!2sToronto%2C%20Ontario%2C%20Canad%C3%A1!5e0!3m2!1ses!2sco!4v1709336598338!5m2!1ses!2sco" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </aside>
     </main>
+
+    <div id="Return">
+        <a href="#inicio">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAACaUlEQVR4nO3cu24TQRiG4U+iQdTQQsQphEAF18Ch4JwL4RqCuB4OFdBRwQVQkwCJoEMoBdjNh0YaS1bk2DPrtffX7vtIU2Uz+ytv1puVFUsAAAAAAAAAAESxmRcCuCzpQNIvSde6Hmbozkvak+S8fki62PVQQ7UhaX8qxmTt569hzVfG1xkxJusbV0qcGJ6KcmmNcw3ShcIYk/WdKHFimCjxYpgoq4mxt0QMogSM4akrJT1IooGNlmNMPzwSJUgME6Xelfxb7BWvn5K2Gsw3uBgHa4hBlJZj/G3pGOdzpnOjYYyRpAcFx92piJJevq5TpHkMFRyb3K2Ikt5PGXyUqw1jlAZJiFIR47AixsNj318aJLnHlbLaGLVBEqK0FOPRCfvUBknuS/pXcU/ZVs9tthSjaZCEKNm5iifw0YIYywRR3ntUOEua+ax6aLfwBzCW9Lhgv2WCKJ9jXDjTS/XQ+8IYTwr3WzaI8rlKonxUD70uiPG0Yr82giifc1GUD+qh5wtiPKvcr60gyueeFyXN3junJX0+4Qa+02A/txhEeYZZN/pPefZeOiPphaQv+c/fV5JuNdzLLQdJbueX1sM8426eGR0FwRJMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFhMkFj+zAnyu+vhhujtnCBvuh5uiLYlHc2IcTSEj1WK6mb+DJVx/qf/d5JudD0UpFN5AQAAAAAAAAAA6Jj/L9Kpftyp8KwAAAAASUVORK5CYII=">
+        </a>
+    </div>
 
     <footer>
         <h3>Sitio Agencia Travel Partner</h3>
